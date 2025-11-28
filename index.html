@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yash Ghongade | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome for Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-T3ePjj0ssWvKD0pGAp0pUvmF5jjG0Ys+qDplLWYwgdEN0pZK0s8AjtKq6HgMHqYjgJv1nP9Wcv16O3EOai9kgw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ================= NAVBAR ================= -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">Yash<span>Dev</span></div>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Internship</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" id="navToggle">
+          <span></span><span></span><span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section id="home" class="hero section">
+    <div class="container hero-container">
+      <div class="hero-text reveal">
+        <p class="hero-tag">👋 Hello, I’m</p>
+        <h1 class="hero-title">Yash Ghongade</h1>
+        <h2 class="hero-subtitle">
+          Software Developer · Python · ML & Data Science · Flutter · Web Development.
+        </h2>
+        <p class="hero-desc">
+          I build intelligent, user-friendly solutions using Python, Machine Learning, Flutter, and modern web
+          technologies. Passionate about real-world problem solving, clean UI/UX, and cloud-native development.
+        </p>
+        <div class="hero-buttons">
+          <a href="assets/Yash_Ghongade_Resume.pdf" class="btn primary" target="_blank">
+            <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+          </a>
+          <a href="#contact" class="btn secondary">
+            <i class="fa-solid fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+
+        <div class="hero-social">
+          <a href="https://github.com/YashGhongade12" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/yash-ghongade/" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="mailto:yashghongade1273@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image reveal">
+        <div class="image-wrapper">
+          <img src="assets/yash-profile.jpg" alt="Yash Ghongade" />
+          <div class="image-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="section">
+    <div class="container about-container reveal">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Short intro about who I am & what I do</p>
+
+      <div class="about-grid">
+        <p>
+          I am a <strong>B.E. Information Technology (IT) – 2025 pass-out batch</strong> student from 
+            <strong>Smt. Kashibai Navale College of Engineering</strong> with a strong focus on 
+            <strong>Python, Machine Learning, Data Science, Web Development, and Flutter</strong>.
+        </p>
+        <p>
+          I enjoy converting ideas into working applications — from ML-based prediction models and data
+          visualization apps to responsive websites and production-ready mobile apps. I love learning new tools
+          like Docker, Firebase, and cloud platforms, and I’m always excited to contribute to impactful projects.
+        </p>
+      </div>
+
+      <div class="about-highlights">
+        <div class="about-card">
+          <h3>Education</h3>
+          <p><strong>B.E. IT</strong> · CGPA: 7.89</p>
+          <p>Smt. Kashibai Navale College of Engineering (2021–2025)</p>
+        </div>
+        <div class="about-card">
+          <h3>Tech Focus</h3>
+          <p>Python · ML · Data Science · Flutter · Web Dev · Docker</p>
+        </div>
+        <div class="about-card">
+          <h3>Goal</h3>
+          <p>
+            To grow as a versatile developer building intelligent, scalable and user-centric applications in a
+            technical role.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-subtitle">Technologies I work with</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Programming & Backend</h3>
+          <ul>
+            <li>Python, C, Java, Dart</li>
+            <li>Flask, Django</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Frontend & Mobile</h3>
+          <ul>
+            <li>HTML, CSS</li>
+            <li>Flutter (Android Apps)</li>
+            <li>Responsive Web Design</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Data Science & ML</h3>
+          <ul>
+            <li>NumPy, Pandas, Matplotlib, Seaborn</li>
+            <li>Scikit-Learn, Pipelines, Cross-Validation</li>
+            <li>Keras, TensorFlow, Neural Networks</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tools & Platforms</h3>
+          <ul>
+            <li>Git, GitHub, GitLab</li>
+            <li>Docker, Docker Hub</li>
+            <li>Power BI, Tableau, Jupyter, Anaconda</li>
+            <li>Firebase, Linux</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Salesforce (CRM)</h3>
+          <ul>
+            <li>Record-Triggered Flows</li>
+            <li>Validation Rules</li>
+            <li>Reports & Dashboards</li>
+            <li>Object & Field Customization</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Concepts</h3>
+          <ul>
+            <li>ML Algorithms, EDA</li>
+            <li>One-Hot Encoding, Feature Scaling</li>
+            <li>RMSE, MAE, Stratified Shuffle Split</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">Click any card to open the project in a new tab</p>
+
+      <!-- Filter Buttons -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="datasci">Data Science</button>
+        <button class="filter-btn" data-filter="flutter">Flutter</button>
+        <button class="filter-btn" data-filter="salesforce">Salesforce</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Python Projects -->
+        <a href="https://github.com/YashGhongade12/hms" target="_blank" class="project-card" data-category="python">
+          <h3>Doctor Appointment Booking</h3>
+          <p>Django-based hospital management & appointment system.</p>
+          <span class="tag">Python · Django · MySQL</span>
+        </a>
+
+        <a href="https://tinyurl.com/4usynaaz" target="_blank" class="project-card" data-category="python">
+          <h3>Jarvis AI Voice Assistant</h3>
+          <p>Voice assistant to automate tasks and respond to commands.</p>
+          <span class="tag">Python · Automation</span>
+        </a>
+
+        <a href="https://tinyurl.com/3j6fcvmy" target="_blank" class="project-card" data-category="python">
+          <h3>AI Chatbot</h3>
+          <p>Chatbot that interacts with users using Python and ML logic.</p>
+          <span class="tag">Python · Chatbot</span>
+        </a>
+
+        <a href="https://tinyurl.com/4nrhap5e" target="_blank" class="project-card" data-category="python">
+          <h3>Number Guessing Game</h3>
+          <p>Fun CLI game with randomized number guessing.</p>
+          <span class="tag">Python · Game</span>
+        </a>
+
+        <a href="https://tinyurl.com/y8zk8w8e" target="_blank" class="project-card" data-category="python">
+          <h3>Snake Water Gun Game</h3>
+          <p>Mini console game similar to Rock-Paper-Scissors.</p>
+          <span class="tag">Python · Logic</span>
+        </a>
+
+        <!-- Data Science Projects -->
+        <a href="https://github.com/YashGhongade12/Project_Gurgaon_ML" target="_blank" class="project-card" data-category="datasci">
+          <h3>Gurgaon House Price Prediction</h3>
+          <p>ML model using Scikit-Learn pipelines for price prediction.</p>
+          <span class="tag">ML · Regression</span>
+        </a>
+
+        <a href="https://hostingcaliforniaapp-nmmgdawtfha3dbxapfsx2r.streamlit.app/" target="_blank" class="project-card" data-category="datasci">
+          <h3>Streamlit Gurgaon Project (Hosted)</h3>
+          <p>Deployed ML app for interactive house price prediction.</p>
+          <span class="tag">Streamlit · Deployment</span>
+        </a>
+
+        <a href="https://github.com/YashGhongade12/Perceptron_Neural_Network" target="_blank" class="project-card" data-category="datasci">
+          <h3>Perceptron</h3>
+          <p>Implementation of Perceptron algorithm from scratch.</p>
+          <span class="tag">Neural Network · ML</span>
+        </a>
+
+        <a href="https://github.com/YashGhongade12/MNIST_Training_Using_Neural_Network/" target="_blank" class="project-card" data-category="datasci">
+          <h3>MNIST TensorFlow</h3>
+          <p>Digit classification using deep learning on MNIST dataset.</p>
+          <span class="tag">TensorFlow · DL</span>
+        </a>
+
+        <a href="https://github.com/YashGhongade12/Data_Collection_Techniques/" target="_blank" class="project-card" data-category="datasci">
+          <h3>Data Collection Techniques</h3>
+          <p>Web scraping & APIs for data acquisition.</p>
+          <span class="tag">Python · BeautifulSoup · Requests</span>
+        </a>
+
+        <!-- Flutter Projects -->
+        <a href="https://tinyurl.com/yrfv4ken" target="_blank" class="project-card" data-category="flutter">
+          <h3>Quiz App</h3>
+          <p>Interactive Flutter quiz app with dynamic questions.</p>
+          <span class="tag">Flutter · Mobile</span>
+        </a>
+
+        <a href="https://tinyurl.com/OnlineVentBook" target="_blank" class="project-card" data-category="flutter">
+          <h3>Online Ventilator Booking</h3>
+          <p>OnlineVentBook app for booking ventilator beds in hospitals.</p>
+          <span class="tag">Flutter · Firebase · API</span>
+        </a>
+
+        <a href="https://tinyurl.com/ycykrb7u" target="_blank" class="project-card" data-category="flutter">
+          <h3>To-Do App</h3>
+          <p>Task management app with local storage and clean UI.</p>
+          <span class="tag">Flutter · Sqflite</span>
+        </a>
+
+        <a href="https://tinyurl.com/PhonePayClone" target="_blank" class="project-card" data-category="flutter">
+          <h3>PhonePe Clone</h3>
+          <p>UI clone of PhonePe with modern Flutter widgets.</p>
+          <span class="tag">Flutter · UI/UX</span>
+        </a>
+
+        <!-- Salesforce Project -->
+        <a href="https://github.com/YashGhongade12/Report_Chart_Using_SalesForce" target="_blank" class="project-card" data-category="salesforce">
+          <h3>Salesforce Admission Automation</h3>
+          <p>Automated student admission workflow with flows & reports.</p>
+          <span class="tag">Salesforce · CRM</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INTERNSHIP ================= -->
+  <section id="experience" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Internship</h2>
+      <p class="section-subtitle">Real-world development experience</p>
+
+      <div class="timeline-card">
+        <div class="timeline-header">
+          <h3>Flutter Development Intern</h3>
+          <span class="timeline-company">Incubators Company, Narhe</span>
+          <span class="timeline-date">Aug 2024 – Feb 2025</span>
+        </div>
+        <ul>
+          <li>Worked on Online Ventilator Bed Booking App (OnlineVentBook), Quiz Application, and To-Do Application.</li>
+          <li>Used Firebase, Sqflite, Provider, ChangeNotifier, and API integration for real-world features.</li>
+          <li>Contributed to UI/UX improvements and collaborated on production-oriented solutions.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ACHIEVEMENTS ================= -->
+  <section id="achievements" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Achievements & Certification</h2>
+      <p class="section-subtitle">Things I’m proud of</p>
+
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <h3><i class="fa-solid fa-certificate"></i> Certification</h3>
+          <p>Microsoft Azure AZ-900 Fundamentals</p>
+        </div>
+
+        <div class="achievement-card">
+          <h3><i class="fa-solid fa-trophy"></i> Hackathons & Events</h3>
+          <ul>
+            <li>Google Developer Student Clubs (GDSC) – Active participant</li>
+            <li>MIT Hackathon – Participated</li>
+            <li>3rd Place – NBN Web Development Hackathon</li>
+          </ul>
+        </div>
+
+        <div class="achievement-card">
+          <h3><i class="fa-solid fa-star"></i> Highlights</h3>
+          <ul>
+            <li>Dart Quiz-e-thon – Strong Dart skills</li>
+            <li>Flutter Project Application – Super-X contributor</li>
+            <li>Successfully built OnlineVentilator Booking App</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section">
+    <div class="container reveal">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">Let’s build something together</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><i class="fa-solid fa-envelope"></i> <a href="mailto:yashghongade1273@gmail.com">yashghongade1273@gmail.com</a></p>
+          <p><i class="fa-solid fa-phone"></i> <a href="tel:+919607351273">+91 96073 51273</a></p>
+          <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/yash-ghongade/" target="_blank">LinkedIn</a></p>
+          <p><i class="fa-brands fa-github"></i> <a href="https://github.com/YashGhongade12" target="_blank">GitHub</a></p>
+        </div>
+
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! You can reach me via email or LinkedIn.');">
+          <h3>Quick Message</h3>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="4" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+          <!-- <p class="form-note">*This is a front-end demo form. For real use, connect it with backend / email API.</p> -->
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Yash Ghongade B.E (I.T)</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
