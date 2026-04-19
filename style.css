@@ -387,7 +387,7 @@ body {
 
 .project-card .tag {
   font-size: 0.8rem;
-  padding: 4px 30px;
+  padding: 4px 26px;
   align-self: flex-start;
   border-radius: 999px;
   background: rgba(56, 189, 248, 0.16);
